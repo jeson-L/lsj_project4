@@ -1,0 +1,8 @@
+INFO     root:parsing_data.py:27 用例标题: 管理员成功登录
+INFO     root:parsing_data.py:28 请求参数:{'method': 'post', 'url': 'http://192.168.10.131:8888/api/private/v1/login', 'params': None, 'data': {'username': 'admin', 'password': 123456}, 'json': None, 'files': None, 'headers': None}
+INFO     root:http_requests.py:11 {'method': 'post', 'url': 'http://192.168.10.131:8888/api/private/v1/login', 'params': None, 'data': {'username': 'admin', 'password': 123456}, 'json': None, 'files': None, 'headers': None}
+INFO     root:extracts.py:12 根据响应结果({'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY3NTAsImV4cCI6MTc1Njk5MzE1MH0.3U0LwTQI374H37F6dq5GwRMvtGOwdrpt_89xeIn6_1k'}, 'meta': {'msg': '登录成功', 'status': 200}})---提取出的数据是：---(Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY3NTAsImV4cCI6MTc1Njk5MzE1MH0.3U0LwTQI374H37F6dq5GwRMvtGOwdrpt_89xeIn6_1k)
+INFO     root:extracts.py:20 根据sql({"USERNAME":"select mg_name from sp_manager "})提取出的数据是：(admin)
+INFO     root:asserts.py:24 数据库预期结果:(admin) == 实际结果:(admin)
+INFO     root:asserts.py:10 HTTP响应结果:{'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY3NTAsImV4cCI6MTc1Njk5MzE1MH0.3U0LwTQI374H37F6dq5GwRMvtGOwdrpt_89xeIn6_1k'}, 'meta': {'msg': '登录成功', 'status': 200}}
+INFO     root:asserts.py:11 HTTP响应预期结果:(登录成功) == 实际结果:(登录成功)

@@ -1,0 +1,5 @@
+[32mINFO    [0m root:parsing_data.py:27 用例标题: 删除分类成功
+[32mINFO    [0m root:parsing_data.py:28 请求参数:{'method': 'delete', 'url': 'http://192.168.10.131:8888/api/private/v1/categories/1498', 'params': None, 'data': None, 'json': None, 'files': None, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY4OTgsImV4cCI6MTc1Njk5MzI5OH0.pD-Mmx4WmT7qgo29oj9BYcHowvC-i1UtZuwlyNkJ0EY'}}
+[32mINFO    [0m root:http_requests.py:11 {'method': 'delete', 'url': 'http://192.168.10.131:8888/api/private/v1/categories/1498', 'params': None, 'data': None, 'json': None, 'files': None, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY4OTgsImV4cCI6MTc1Njk5MzI5OH0.pD-Mmx4WmT7qgo29oj9BYcHowvC-i1UtZuwlyNkJ0EY'}}
+[32mINFO    [0m root:asserts.py:10 HTTP响应结果:{'data': None, 'meta': {'msg': '删除成功', 'status': 200}}
+[32mINFO    [0m root:asserts.py:11 HTTP响应预期结果:(删除成功) == 实际结果:(删除成功)

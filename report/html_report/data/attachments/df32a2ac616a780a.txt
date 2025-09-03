@@ -1,0 +1,5 @@
+INFO     root:parsing_data.py:27 用例标题: 商品分类查询成功
+INFO     root:parsing_data.py:28 请求参数:{'method': 'get', 'url': 'http://192.168.10.131:8888/api/private/v1/categories/1497', 'params': None, 'data': None, 'json': None, 'files': None, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY3NTAsImV4cCI6MTc1Njk5MzE1MH0.3U0LwTQI374H37F6dq5GwRMvtGOwdrpt_89xeIn6_1k'}}
+INFO     root:http_requests.py:11 {'method': 'get', 'url': 'http://192.168.10.131:8888/api/private/v1/categories/1497', 'params': None, 'data': None, 'json': None, 'files': None, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3NTY5MDY3NTAsImV4cCI6MTc1Njk5MzE1MH0.3U0LwTQI374H37F6dq5GwRMvtGOwdrpt_89xeIn6_1k'}}
+INFO     root:asserts.py:10 HTTP响应结果:{'data': {'cat_id': 1497, 'cat_name': 'sp_test', 'cat_pid': 0, 'cat_level': 0, 'cat_deleted': False}, 'meta': {'msg': '获取成功', 'status': 200}}
+INFO     root:asserts.py:11 HTTP响应预期结果:(获取成功) == 实际结果:(获取成功)
